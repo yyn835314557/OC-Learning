@@ -15,4 +15,5 @@
 }
 -(NSString *)judgeGender:(BOOL)male;
 -(void)say;
+//-(NSString *)teeest:(NSString*) input :(int) intqq;
 @end

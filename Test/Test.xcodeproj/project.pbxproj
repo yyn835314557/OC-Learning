@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772E25621BF6D7780036E4E6 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E25611BF6D7780036E4E6 /* Member.m */; };
 		772F82751BF446DF006B6673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F82741BF446DF006B6673 /* main.m */; };
 		772F82811BF48B66006B6673 /* YNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F82801BF48B66006B6673 /* YNStudent.m */; };
 		772F82841BF48EE5006B6673 /* YNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F82831BF48EE5006B6673 /* YNTest.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		772E25601BF6D7780036E4E6 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		772E25611BF6D7780036E4E6 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		772F82711BF446DF006B6673 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		772F82741BF446DF006B6673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		772F827F1BF48B57006B6673 /* YNStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YNStudent.h; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				772F82741BF446DF006B6673 /* main.m */,
+				772E25601BF6D7780036E4E6 /* Member.h */,
+				772E25611BF6D7780036E4E6 /* Member.m */,
 				772F82821BF48EE5006B6673 /* YNTest.h */,
 				772F82831BF48EE5006B6673 /* YNTest.m */,
 				772F827F1BF48B57006B6673 /* YNStudent.h */,
@@ -131,6 +136,7 @@
 				772F82811BF48B66006B6673 /* YNStudent.m in Sources */,
 				772F82841BF48EE5006B6673 /* YNTest.m in Sources */,
 				772F82751BF446DF006B6673 /* main.m in Sources */,
+				772E25621BF6D7780036E4E6 /* Member.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +253,7 @@
 				772F827A1BF446DF006B6673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
