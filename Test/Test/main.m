@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YNStudent.h"
-#import "Member.h"
-#import "YNTest.h"
+//#import "YNStudent.h"
+//#import "Member.h"
+//#import "YNTest.h"
+#import "SELDemo.h"
 
 /**
  *  简单的数据类型: 
@@ -23,15 +24,31 @@
 
 int main(int argc,const char *argv[]){
     @autoreleasepool {
-//        YNStudent *stu = [[YNStudent alloc]init];// 从堆里面分配内存
-//        [stu say];
-        Member *member = [[Member alloc]init];
-        [member setName:@"youyinan"];
-        [member setAge:26];
+////        YNStudent *stu = [[YNStudent alloc]init];// 从堆里面分配内存
+////        [stu say];
+//        Member *member = [[Member alloc]init];
+//        [member setName:@"youyinan"];
+//        [member setAge:26];
+//        YNStudent *student = [[YNStudent alloc]init];
+////        [student SetName:@"name" age:23];
+//        [student teeeest:@"111" :12];
+        
+//        SEL sel = @selector(printttttt);
+        SELDemo *demo = [[SELDemo alloc]init];
+//        [demo performSelector:sel withObject:nil];
+        
+            Class TheClass = [demo class];
+        NSLog(@"class name is %@", [TheClass className]);
+//        NSLog(@"海若无边天做岸，山登绝顶我为峰");
+//        NSLog(@"保剑锋从磨砺出，梅花香自苦寒来");
+        if ( [demo isKindOfClass: TheClass] ) {
+            NSLog(@"YESYES");
+        }
+
         
         
-        NSLog(@"%@",[member getName]);// 调用方法
-        NSLog(@"%d",[member getAge]);
-        NSLog(@"Hello Objective-C");
+//        NSLog(@"%@",[member getName]);// 调用方法
+//        NSLog(@"%d",[member getAge]);
+//        NSLog(@"Hello Objective-C");
     }
 }

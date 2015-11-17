@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772038DC1BFB55F800110BF7 /* SELDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 772038DB1BFB55F800110BF7 /* SELDemo.m */; };
 		772E25621BF6D7780036E4E6 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 772E25611BF6D7780036E4E6 /* Member.m */; };
 		772F82751BF446DF006B6673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F82741BF446DF006B6673 /* main.m */; };
 		772F82811BF48B66006B6673 /* YNStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F82801BF48B66006B6673 /* YNStudent.m */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		772038DA1BFB55F800110BF7 /* SELDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELDemo.h; sourceTree = "<group>"; };
+		772038DB1BFB55F800110BF7 /* SELDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELDemo.m; sourceTree = "<group>"; };
 		772E25601BF6D7780036E4E6 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		772E25611BF6D7780036E4E6 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		772F82711BF446DF006B6673 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				772F82741BF446DF006B6673 /* main.m */,
+				772038DA1BFB55F800110BF7 /* SELDemo.h */,
+				772038DB1BFB55F800110BF7 /* SELDemo.m */,
 				772E25601BF6D7780036E4E6 /* Member.h */,
 				772E25611BF6D7780036E4E6 /* Member.m */,
 				772F82821BF48EE5006B6673 /* YNTest.h */,
@@ -137,6 +142,7 @@
 				772F82841BF48EE5006B6673 /* YNTest.m in Sources */,
 				772F82751BF446DF006B6673 /* main.m in Sources */,
 				772E25621BF6D7780036E4E6 /* Member.m in Sources */,
+				772038DC1BFB55F800110BF7 /* SELDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

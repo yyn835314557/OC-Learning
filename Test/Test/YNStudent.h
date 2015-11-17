@@ -16,7 +16,8 @@
     int age;
 }
 -(void)say;
-
+-(void)teeeest:(NSString *)inputtttt :(int) input2;
+-(void)SetName:(NSString *)name age:(int) age;
 @end
 
 #endif
