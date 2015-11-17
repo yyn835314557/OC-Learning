@@ -1,8 +1,6 @@
 # the procedure of learing Objective-C
 
-*Just learn it by myself and hope to master it within a month*
-
-**There must be many errors and scarcities**
+*There must be many errors and scarcities and I would appreciate your corrections*
 ***
 
 #### References: [the Programming with Objective-C language](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/ProgrammingWithObjectiveC.pdf)
