@@ -5,15 +5,15 @@
 **There must be many errors and scarcities**
 ***
 
-### References: [Programming with Objective-C](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/ProgrammingWithObjectiveC.pdf)
+#### References: [the Programming with Objective-C language](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/ProgrammingWithObjectiveC.pdf)
 
-### * [Objective-C data type and operators](1.数据类型及运算符表达式.md)
+### 1. [Objective-C data type and operators](1.数据类型及运算符表达式.md)
 introduce data type and operator expression 
 
-### * []
+### 2. 
 
-### *
+### 3.
 
-### *
+### 4.
 
-### *
+### 5.
